@@ -221,6 +221,6 @@ async def on_command_error(ctx, error):
 
 # Bot'u başlat
 if __name__ == "__main__":
-import os
-TOKEN = os.getenv("DISCORD_TOKEN")
-bot.run(TOKEN)
+    import os
+    TOKEN = os.getenv("DISCORD_TOKEN")
+    bot.run(TOKEN)
